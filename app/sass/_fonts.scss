@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("Open Sans", "../fonts/OpenSans/OpenSans");
+@include font-face("Open Sans", "../fonts/OpenSansItalic/OpenSansItalic", normal, italic);
+@include font-face("Open Sans", "../fonts/OpenSansBold/OpenSansBold", 700);

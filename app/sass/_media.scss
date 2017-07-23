@@ -1,0 +1,40 @@
+@media only screen and (max-width : 1200px){
+
+}
+
+@media only screen and (max-width : 992px){
+
+}
+
+@media only screen and (max-width : 768px){
+	// Mobile animated ico
+	@import "_mixins/burger-ico";
+
+	.menu-button {
+		display: inline-block;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+	}
+
+	.burger-icon {
+		@include burger(35px, 4px, 7px, #444);
+	}
+
+	.menu-button.is-active .burger-icon {
+		@include burger-to-cross;
+	}
+
+	.mobile-menu-ico{
+		line-height: 1px;
+		margin: 22px 0;
+		float: right;
+	}
+	// Mobile animated ico
+
+
+}
+
+@media only screen and (max-width : 480px){
+
+}
